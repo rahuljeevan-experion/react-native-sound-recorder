@@ -128,7 +128,7 @@ public class RNSoundRecorderModule extends ReactContextBaseJavaModule {
                             return true;
 
                         } else {
-                            // old permission check
+                            // old permission check code
                             if (writePermission != PackageManager.PERMISSION_GRANTED
                                     || readPermission != PackageManager.PERMISSION_GRANTED
                                     || recordingPermission != PackageManager.PERMISSION_GRANTED
